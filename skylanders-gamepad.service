@@ -1,0 +1,9 @@
+[Unit]
+Description=Skylanders Gamepad
+
+[Service]
+Type=exec
+
+ExecStart=/usr/bin/python3 /home/pi/SkylandersGamepadLinux/main.py
+Restart=on-failure
+RestartSec=1
